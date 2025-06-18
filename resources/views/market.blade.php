@@ -97,7 +97,15 @@
                 @endforeach
             </div>
 
-
+        </div>
+        
+        <div class="card text-bg-dark mb-5 container d-flex flex-column justify-content-center p-0" style="max-width: 60%; font-size: 1.2rem;">
+            <img src="{{ asset('/bg-laptop.jpg') }}" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h3 class="card-title">Card title</h3>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text" style="position: absolute; bottom: 0; right: 0; margin: 0.8rem;"><small>Last updated 3 mins ago</small></p>
+            </div>
         </div>
     </div>
 
