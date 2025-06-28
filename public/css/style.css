@@ -1,0 +1,35 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax {
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro {
+    background-image: url('/bg-laptop-intro.jpg');
+    height: 100vh;
+}
+
+.main {
+    background-image: url('/bg-laptop-main.jpg');
+    height: max-content;
+}
+
+.judul-wrap {
+    height: 70%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.judul {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 2rem;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+}
